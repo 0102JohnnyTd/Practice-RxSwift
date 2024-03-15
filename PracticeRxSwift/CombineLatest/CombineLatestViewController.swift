@@ -10,7 +10,7 @@ import RxSwift
 import RxCocoa
 
 final class CombineLatestViewController: UIViewController {
-    @IBOutlet weak var combineLatestButton: UIButton!
+    @IBOutlet private weak var combineLatestButton: UIButton!
 
     private let disposeBag = DisposeBag()
     private let viewModel = CombineLatestViewModel()
