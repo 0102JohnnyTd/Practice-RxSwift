@@ -17,7 +17,7 @@ final class WithLatestFromViewModel {
     var combineLatestObservable: Observable<String> {
         drinkSubject
             .withLatestFrom(countSubject) { drink, count in
-                " \(drink)が\(count)杯"
+                "\(drink)が\(count)杯"
             }
     }
     
