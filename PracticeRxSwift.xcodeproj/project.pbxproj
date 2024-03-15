@@ -7,17 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CA667A12BA43C5E006CB8AF /* CombineLatest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CA667A02BA43C5E006CB8AF /* CombineLatest.storyboard */; };
+		1CA667A32BA43C7F006CB8AF /* CombineLatestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA667A22BA43C7F006CB8AF /* CombineLatestViewController.swift */; };
+		1CA667A52BA43ED9006CB8AF /* CombineLatestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA667A42BA43ED9006CB8AF /* CombineLatestViewModel.swift */; };
+		1CA667A92BA45171006CB8AF /* WithLatestFrom.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CA667A82BA45171006CB8AF /* WithLatestFrom.storyboard */; };
+		1CA667AB2BA4519F006CB8AF /* WithLatestFromViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA667AA2BA4519F006CB8AF /* WithLatestFromViewModel.swift */; };
+		1CA667AD2BA451B0006CB8AF /* WithLatestFromViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA667AC2BA451B0006CB8AF /* WithLatestFromViewController.swift */; };
 		1CC3563C2B9486CB0084AAA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC3563B2B9486CB0084AAA0 /* AppDelegate.swift */; };
 		1CC3563E2B9486CB0084AAA0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC3563D2B9486CB0084AAA0 /* SceneDelegate.swift */; };
 		1CC356402B9486CB0084AAA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC3563F2B9486CB0084AAA0 /* ViewController.swift */; };
 		1CC356432B9486CB0084AAA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CC356412B9486CB0084AAA0 /* Main.storyboard */; };
 		1CC356452B9486CE0084AAA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CC356442B9486CE0084AAA0 /* Assets.xcassets */; };
 		1CC356482B9486CE0084AAA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CC356462B9486CE0084AAA0 /* LaunchScreen.storyboard */; };
+		1CC356502B9488E50084AAA0 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC3564F2B9488E50084AAA0 /* ViewModel.swift */; };
 		E27BB712C7BB1EE1E457FCA3 /* Pods_PracticeRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647369EA8D9184A1B256825A /* Pods_PracticeRxSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		00B09EE7F8CD6290CC5CC954 /* Pods-PracticeRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracticeRxSwift.release.xcconfig"; path = "Target Support Files/Pods-PracticeRxSwift/Pods-PracticeRxSwift.release.xcconfig"; sourceTree = "<group>"; };
+		1CA667A02BA43C5E006CB8AF /* CombineLatest.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CombineLatest.storyboard; sourceTree = "<group>"; };
+		1CA667A22BA43C7F006CB8AF /* CombineLatestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineLatestViewController.swift; sourceTree = "<group>"; };
+		1CA667A42BA43ED9006CB8AF /* CombineLatestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineLatestViewModel.swift; sourceTree = "<group>"; };
+		1CA667A82BA45171006CB8AF /* WithLatestFrom.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WithLatestFrom.storyboard; sourceTree = "<group>"; };
+		1CA667AA2BA4519F006CB8AF /* WithLatestFromViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithLatestFromViewModel.swift; sourceTree = "<group>"; };
+		1CA667AC2BA451B0006CB8AF /* WithLatestFromViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithLatestFromViewController.swift; sourceTree = "<group>"; };
 		1CC356382B9486CB0084AAA0 /* PracticeRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CC3563B2B9486CB0084AAA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CC3563D2B9486CB0084AAA0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +39,7 @@
 		1CC356442B9486CE0084AAA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CC356472B9486CE0084AAA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CC356492B9486CE0084AAA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CC3564F2B9488E50084AAA0 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		647369EA8D9184A1B256825A /* Pods_PracticeRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PracticeRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABAB9235628639BB1AAEE1E0 /* Pods-PracticeRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracticeRxSwift.debug.xcconfig"; path = "Target Support Files/Pods-PracticeRxSwift/Pods-PracticeRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -42,6 +56,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CA667A62BA45134006CB8AF /* CombineLatest */ = {
+			isa = PBXGroup;
+			children = (
+				1CA667A42BA43ED9006CB8AF /* CombineLatestViewModel.swift */,
+				1CA667A22BA43C7F006CB8AF /* CombineLatestViewController.swift */,
+				1CA667A02BA43C5E006CB8AF /* CombineLatest.storyboard */,
+			);
+			path = CombineLatest;
+			sourceTree = "<group>";
+		};
+		1CA667A72BA45150006CB8AF /* withLatestFrom */ = {
+			isa = PBXGroup;
+			children = (
+				1CA667AA2BA4519F006CB8AF /* WithLatestFromViewModel.swift */,
+				1CA667AC2BA451B0006CB8AF /* WithLatestFromViewController.swift */,
+				1CA667A82BA45171006CB8AF /* WithLatestFrom.storyboard */,
+			);
+			name = withLatestFrom;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		1CC3562F2B9486CB0084AAA0 = {
 			isa = PBXGroup;
 			children = (
@@ -65,8 +100,11 @@
 			children = (
 				1CC3563B2B9486CB0084AAA0 /* AppDelegate.swift */,
 				1CC3563D2B9486CB0084AAA0 /* SceneDelegate.swift */,
+				1CC3564F2B9488E50084AAA0 /* ViewModel.swift */,
 				1CC3563F2B9486CB0084AAA0 /* ViewController.swift */,
 				1CC356412B9486CB0084AAA0 /* Main.storyboard */,
+				1CA667A62BA45134006CB8AF /* CombineLatest */,
+				1CA667A72BA45150006CB8AF /* withLatestFrom */,
 				1CC356442B9486CE0084AAA0 /* Assets.xcassets */,
 				1CC356462B9486CE0084AAA0 /* LaunchScreen.storyboard */,
 				1CC356492B9486CE0084AAA0 /* Info.plist */,
@@ -80,7 +118,6 @@
 				ABAB9235628639BB1AAEE1E0 /* Pods-PracticeRxSwift.debug.xcconfig */,
 				00B09EE7F8CD6290CC5CC954 /* Pods-PracticeRxSwift.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -153,8 +190,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CC356482B9486CE0084AAA0 /* LaunchScreen.storyboard in Resources */,
+				1CA667A12BA43C5E006CB8AF /* CombineLatest.storyboard in Resources */,
 				1CC356452B9486CE0084AAA0 /* Assets.xcassets in Resources */,
 				1CC356432B9486CB0084AAA0 /* Main.storyboard in Resources */,
+				1CA667A92BA45171006CB8AF /* WithLatestFrom.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,8 +247,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CC356402B9486CB0084AAA0 /* ViewController.swift in Sources */,
+				1CA667AB2BA4519F006CB8AF /* WithLatestFromViewModel.swift in Sources */,
 				1CC3563C2B9486CB0084AAA0 /* AppDelegate.swift in Sources */,
+				1CC356502B9488E50084AAA0 /* ViewModel.swift in Sources */,
+				1CA667A32BA43C7F006CB8AF /* CombineLatestViewController.swift in Sources */,
+				1CA667AD2BA451B0006CB8AF /* WithLatestFromViewController.swift in Sources */,
 				1CC3563E2B9486CB0084AAA0 /* SceneDelegate.swift in Sources */,
+				1CA667A52BA43ED9006CB8AF /* CombineLatestViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +316,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -335,7 +379,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
