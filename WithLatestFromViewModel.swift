@@ -20,8 +20,10 @@ final class WithLatestFromViewModel {
                 "\(drink)が\(count)杯"
             }
     }
-    
+
     func publishEvent() {
+        countSubject.onNext(3)
+        drinkSubject.onNext("🍹")
         drinkSubject.onNext("🍺")
         drinkSubject.onNext("🍵")
         countSubject.onNext(2)
